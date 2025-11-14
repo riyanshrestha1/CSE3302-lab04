@@ -1,6 +1,8 @@
 #Name: Riyan Shrestha
 #Id: 1002223799
 #Due Date: 11/14/2025
+#OS/Python version: Ubuntu 22.04/Python 3.12.1
+
 def count_braces(line, in_block_comment):
 
     opens = 0
@@ -23,7 +25,7 @@ def count_braces(line, in_block_comment):
                 i += 1
             continue
 
-        # start of new comment?
+        # start of new comment
         if ch == '/' and nxt == '/':
             # rest of line is comment
             break

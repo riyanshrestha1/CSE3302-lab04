@@ -1,3 +1,7 @@
+#Name: Riyan Shrestha
+#Id: 1002223799
+#Due Date: 11/14/2025
+#OS/Python version: Ubuntu 22.04/Python 3.12.1
 
 def pretty_print_java(filename="input_EC.txt"):
     indent = 0

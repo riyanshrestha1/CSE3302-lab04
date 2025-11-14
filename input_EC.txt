@@ -1,0 +1,4 @@
+System.out.println("\"");  // prints a double quote
+System.out.println("{\"}");  // brace inside string should be ignored
+System.out.println("Hello { world }");  // braces inside quotes
+if (x > 0) { System.out.println("Inside if { }"); }
